@@ -1,5 +1,4 @@
 
-
 td, tr, table {
     border-collapse: collapse;
     margin:0;
@@ -9,7 +8,7 @@ td, tr, table {
 }
 
 body {
-    background-image: url('http://oregonarc.github/csi/static/images/backgrounds/ocean.png');
+    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/ocean.png');
     background-color: white;
     font-family: Arial;
     font-size: 12px;
@@ -39,7 +38,7 @@ table {
 }
 
 #content .left {
-    background-image: url('http://oregonarc.github/csi/static/images/backgrounds/content_left.png');
+    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/content_left.png');
     background-size: 100%;
     vertical-align: top;
 }
@@ -51,7 +50,7 @@ table {
 }
 
 #content .right {
-    background-image: url('http://oregonarc.github/csi/static/images/backgrounds/content_right.png');
+    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/content_right.png');
     background-size: 100%;
 }
 
@@ -60,12 +59,12 @@ table {
 }
 
 #footer .left {
-    background-image: url('http://oregonarc.github/csi/static/images/backgrounds/footer_left.png');
+    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/footer_left.png');
     background-size: 100%;
 }
 
 #footer .right {
-    background-image: url('http://oregonarc.github/csi/static/images/backgrounds/footer_right.png');
+    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/footer_right.png');
     background-size: 100%;
 }
 
