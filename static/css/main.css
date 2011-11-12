@@ -1,0 +1,78 @@
+
+
+td, tr, table {
+    border-collapse: collapse;
+    margin:0;
+    padding:0;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+body {
+    background-image: url('file:///Users/aldenjole/Projects/csi/static/images/backgrounds/ocean.png');
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+h2, h3, p, a {
+    font-size: 12pt;
+}
+
+h2, h3 {
+    text-decoration: none;
+    font-style: normal;
+}
+
+table {
+    width:850px;
+    margin: 0 auto;
+}
+
+#content {
+    height:460px;
+    color:white;
+}
+
+#content .left {
+    background-image: url('file:///Users/aldenjole/Projects/csi/static/images/backgrounds/content_left.png');
+    background-size: 100%;
+    vertical-align: top;
+}
+
+#content .left .logo {
+    padding-top:30px;
+    padding-left:60px;
+    width:130px; 
+}
+
+#content .right {
+    background-image: url('file:///Users/aldenjole/Projects/csi/static/images/backgrounds/content_right.png');
+    background-size: 100%;
+}
+
+#footer {
+    height:110px;
+}
+
+#footer .left {
+    background-image: url('file:///Users/aldenjole/Projects/csi/static/images/backgrounds/footer_left.png');
+    background-size: 100%;
+}
+
+#footer .right {
+    background-image: url('file:///Users/aldenjole/Projects/csi/static/images/backgrounds/footer_right.png');
+    background-size: 100%;
+}
+
+.left {
+    width:250px;
+}
+
+.right {
+    width:600px;
+}
