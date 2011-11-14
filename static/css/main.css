@@ -52,6 +52,7 @@ h2, h3 {
 #content .right {
    background-image: url('../images/backgrounds/content_right.png');
    height:460px;
+   margin-top: 1px;
 }
 
 #content .right div {
@@ -124,6 +125,11 @@ h2, h3 {
 
 .left {
     width:250px;
+}
+
+#footer .left { /* The content left image has some transparent space on it's left side*/
+    width:246px;
+    margin-left: 4px;
 }
 
 .right {
