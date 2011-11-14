@@ -69,7 +69,7 @@ h2, h3 {
 }
 
 #footer .left {
-   background:url('../images/backgrounds/footer_left.png');
+   background-color: rgba(256, 256, 256, 0.24);
    background-size:100%;
    background-repeat:no-repeat;
    height:110px;
@@ -146,9 +146,9 @@ h2, h3 {
     -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
     /* For IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000')";
     /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000');
 }
 
 .rounded {
