@@ -1,4 +1,3 @@
-
 body {
     background-image: url('../images/backgrounds/ocean.png');
     background-color: white;
@@ -146,9 +145,9 @@ h2, h3 {
     -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
     /* For IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000')";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000')";*/
     /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000');
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=40, Direction=156, Color='#000000');
 }
 
 .rounded {
