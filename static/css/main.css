@@ -27,7 +27,7 @@ h2, h3 {
 }
 
 .center {
-    width:850px;
+    width:880px;
     margin-left: 0;
     margin-right: 0;
     margin: auto;
@@ -40,21 +40,18 @@ h2, h3 {
     margin-bottom: 15px;
 }
 
-#content .left {
-   vertical-align: top;
-   background: white;
-   height:460px;
+#content div {
+    padding-bottom: 20px;
 }
 
-#content .left .logo {
-    padding-top:30px;
-    padding-left:60px;
-    width:130px; 
+#content .left {
+   background-image: url('../images/backgrounds/content_left.png');
+   vertical-align: top;
+   height:460px;
 }
 
 #content .right {
    background-image: url('../images/backgrounds/content_right.png');
-   background: #FF7E00;
    height:460px;
 }
 
@@ -65,14 +62,13 @@ h2, h3 {
 }
 
 #footer {
-    height:110px;
+    height:130px;
 }
 
 #footer .left {
-   background-color: rgba(256, 256, 256, 0.24);
-   background-size:100%;
+   background-image: url('../images/backgrounds/footer_left.png');
    background-repeat:no-repeat;
-   height:110px;
+   height:130px;
 }
 
 #footer .left ul {
@@ -93,8 +89,8 @@ h2, h3 {
 }
 
 #footer .right {
-    background:white;
-    height:110px;
+    background-image: url('../images/backgrounds/footer_right.png');
+    height:130px;
     color: #1d2e48;
 }
 
@@ -129,28 +125,13 @@ h2, h3 {
 
 .left {
     width:250px;
-    float: left;
-    border-bottom-left-radius:11px;
-    border-top-left-radius:11px;
 }
 
 .right {
-    width:600px;
+    width:630px;
+}
+
+.left, .right {
     float: left;
-    border-bottom-right-radius:11px;
-    border-top-right-radius:11px;
-}
-
-.shadow {
-    -moz-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
-    /* For IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000')";
-    /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000');
-}
-
-.rounded {
-    border-radius:11px;
+    background-repeat: no-repeat;
 }
