@@ -1,25 +1,24 @@
 
-td, tr, table {
-    border-collapse: collapse;
-    margin:0;
-    padding:0;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
-}
-
 body {
-    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/ocean.png');
+    background-image: url('../images/backgrounds/ocean.png');
     background-color: white;
     font-family: Arial;
     font-size: 12px;
 }
 
 h1 {
-    font-size: 18pt;
+    font-size: 18px;
+    padding:0px;
+    margin: 0px;
+    font-weight: 100;
 }
 
-h2, h3, p, a {
-    font-size: 12pt;
+p, a {
+    font-size: 12px;
+}
+
+p {
+    line-height: 160%;
 }
 
 h2, h3 {
@@ -27,20 +26,24 @@ h2, h3 {
     font-style: normal;
 }
 
-table {
+.center {
     width:850px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
 }
 
 #content {
     height:460px;
     color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #content .left {
-    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/content_left.png');
-    background-size: 100%;
-    vertical-align: top;
+   vertical-align: top;
+   background: white;
+   height:460px;
 }
 
 #content .left .logo {
@@ -50,8 +53,15 @@ table {
 }
 
 #content .right {
-    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/content_right.png');
-    background-size: 100%;
+   background-image: url('../images/backgrounds/content_right.png');
+   background: #FF7E00;
+   height:460px;
+}
+
+#content .right div {
+   padding-left:50px;
+   padding-top:40px;
+   padding-right: 70px;
 }
 
 #footer {
@@ -59,19 +69,88 @@ table {
 }
 
 #footer .left {
-    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/footer_left.png');
-    background-size: 100%;
+   background:url('../images/backgrounds/footer_left.png');
+   background-size:100%;
+   background-repeat:no-repeat;
+   height:110px;
+}
+
+#footer .left ul {
+   color: white;
+   margin:0px;
+   list-style: none;
+   padding: 5px;
+   padding-top: 10px;
+}
+
+#footer .left ul li {
+    padding: 5px;
+}
+
+#footer .left ul li a {
+   font-size: 10pt;
+   color: white;
 }
 
 #footer .right {
-    background-image: url('http://oregonarc.github.com/csi/static/images/backgrounds/footer_right.png');
-    background-size: 100%;
+    background:white;
+    height:110px;
+    color: #1d2e48;
+}
+
+#footer .right div {
+    padding-top: 13px;
+    padding-left: 40px;
+}
+
+#footer .right div div {
+    float: left;
+    padding: 0px;
+    padding-right:20px;
+}
+
+#footer .right div div img.logo {
+    width: 80px;
+    float: left;
+}
+
+#footer .right div div span {
+    float: left;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+#footer .right div div span a {
+    padding-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #218bb9;
 }
 
 .left {
     width:250px;
+    float: left;
+    border-bottom-left-radius:11px;
+    border-top-left-radius:11px;
 }
 
 .right {
     width:600px;
+    float: left;
+    border-bottom-right-radius:11px;
+    border-top-right-radius:11px;
+}
+
+.shadow {
+    -moz-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.rounded {
+    border-radius:11px;
 }
