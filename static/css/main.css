@@ -147,7 +147,7 @@ h2, h3 {
     /* For IE 8 */
     /*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=200, Color='#000000')";*/
     /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=40, Direction=156, Color='#000000');
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=150, Color='#000000');
 }
 
 .rounded {
