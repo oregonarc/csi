@@ -1,5 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background-image: url('../images/backgrounds/ocean.png');
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-size: 100%;
     background-color: white;
     font-family: Arial;
     font-size: 12px;
@@ -14,6 +23,10 @@ h1 {
 
 p, a {
     font-size: 12px;
+}
+
+a {
+    color: white;
 }
 
 p {
